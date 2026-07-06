@@ -77,14 +77,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Gracie Barra Pechincha — Jiu-Jitsu no Center Shopping | Aula Experimental Gratuita" },
+      { name: "description", content: "Academia de Jiu-Jitsu dentro do Center Shopping Pechincha. GBK, GBF, adultos e competição. Agende sua aula experimental gratuita agora." },
+      { name: "author", content: "Gracie Barra Pechincha" },
+      { name: "theme-color", content: "#cc0000" },
+      { property: "og:title", content: "Gracie Barra Pechincha — Jiu-Jitsu no Center Shopping" },
+      { property: "og:description", content: "Aula experimental gratuita. GBK, GBF, adultos e competição no Center Shopping Pechincha." },
+      { property: "og:site_name", content: "Gracie Barra Pechincha" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Gracie Barra Pechincha — Jiu-Jitsu" },
+      { name: "twitter:description", content: "Aula experimental gratuita no Center Shopping Pechincha." },
     ],
     links: [
       {
