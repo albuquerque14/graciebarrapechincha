@@ -16,6 +16,11 @@ import {
   Baby,
   Heart,
   Flame,
+  Swords,
+  Shield,
+  Accessibility,
+  GraduationCap,
+  Zap,
 } from "lucide-react";
 
 import { FloatingWhatsApp, WhatsAppCTA } from "@/components/whatsapp-button";
