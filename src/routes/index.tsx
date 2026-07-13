@@ -229,10 +229,10 @@ function Particles() {
 /* ---------- ABOUT / COUNTERS ---------- */
 function AboutGB() {
   const stats = [
-    { value: 40, suffix: "+", label: "Anos de história" },
-    { value: 900, suffix: "+", label: "Unidades no mundo" },
-    { value: 200, suffix: "k+", label: "Alunos formados" },
-    { value: 6, suffix: "", label: "Continentes" },
+    { value: 15, suffix: "+", label: "Anos transformando vidas" },
+    { value: 50, suffix: "+", label: "Faixas-pretas formados" },
+    { value: 5, suffix: "", label: "Turmas para toda a família" },
+    { value: 6, suffix: "", label: "Dias de treino por semana" },
   ];
   return (
     <section className="relative overflow-hidden border-y border-white/5 bg-[#0a0a0a] py-24 md:py-32">
@@ -243,7 +243,7 @@ function AboutGB() {
       <div className="relative mx-auto max-w-6xl px-6">
         <FadeIn>
           <span className="text-xs uppercase tracking-[0.4em] text-[#cc0000]" style={{ fontFamily: "var(--font-display)" }}>
-            Sobre a Gracie Barra
+            Sobre a nossa escola
           </span>
         </FadeIn>
         <FadeIn delay={0.1}>
@@ -251,8 +251,13 @@ function AboutGB() {
             className="mt-4 max-w-3xl text-3xl font-bold uppercase leading-tight tracking-tight text-white md:text-5xl lg:text-6xl"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            A maior organização de <span className="text-[#cc0000]">Jiu-Jitsu</span> do mundo. Agora no Center Shopping Pechincha.
+            Jiu-Jitsu para <span className="text-[#cc0000]">toda a família</span>. Tradição, excelência e um ambiente seguro para você evoluir.
           </h2>
+        </FadeIn>
+        <FadeIn delay={0.15}>
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/70 md:text-lg">
+            Há mais de 15 anos, nossa escola transforma vidas por meio do Jiu-Jitsu, formando atletas, famílias e dezenas de faixas-pretas. Seja para defesa pessoal, saúde, disciplina ou competição, você encontrará uma equipe preparada para acompanhar sua evolução desde a primeira aula.
+          </p>
         </FadeIn>
 
         <div className="mt-16 grid grid-cols-2 gap-8 md:grid-cols-4">
