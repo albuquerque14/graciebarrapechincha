@@ -91,6 +91,10 @@ function Hero() {
             alt="Gracie Barra Pechincha — Jiu-Jitsu & Defesa Pessoal"
             className="h-14 w-14 object-contain md:h-16 md:w-16"
           />
+          <div className="flex flex-col leading-tight" style={{ fontFamily: "var(--font-display)" }}>
+            <span className="text-sm font-bold uppercase tracking-widest text-white md:text-base">Gracie Barra</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-[#cc0000] md:text-sm">Pechincha</span>
+          </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
