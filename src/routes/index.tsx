@@ -231,8 +231,8 @@ function AboutGB() {
   const stats = [
     { value: 15, suffix: "+", label: "Anos transformando vidas" },
     { value: 50, suffix: "+", label: "Faixas-pretas formados" },
-    { value: 5, suffix: "", label: "Turmas para toda a família" },
-    { value: 6, suffix: "", label: "Dias de treino por semana" },
+    { value: 5, suffix: "", label: "Públicos atendidos" },
+    { value: 5, suffix: "", label: "Dias de treino por semana" },
   ];
   return (
     <section className="relative overflow-hidden border-y border-white/5 bg-[#0a0a0a] py-24 md:py-32">
