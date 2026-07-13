@@ -759,11 +759,10 @@ function FinalCTA() {
         </FadeIn>
         <FadeIn delay={0.15}>
           <h2
-            className="mt-6 text-4xl font-bold uppercase leading-[0.95] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl"
+            className="mt-6 text-4xl font-bold uppercase leading-[1.15] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Sua primeira aula<br className="mb-2" />
-            <span className="mt-2 inline-block">é <span className="italic">gratuita</span>.</span>
+            Sua primeira aula<br />é <span className="italic">gratuita</span>.
           </h2>
         </FadeIn>
         <FadeIn delay={0.3}>
