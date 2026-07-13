@@ -16,6 +16,11 @@ import {
   Baby,
   Heart,
   Flame,
+  Swords,
+  Shield,
+  Accessibility,
+  GraduationCap,
+  Zap,
 } from "lucide-react";
 
 import { FloatingWhatsApp, WhatsAppCTA } from "@/components/whatsapp-button";
@@ -314,24 +319,72 @@ function Programs() {
       title: "Kids",
       img: kidsImg,
       icon: Baby,
-      tagline: "4 a 13 anos",
-      benefits: ["Disciplina e foco", "Autoconfiança", "Anti-bullying", "Coordenação motora"],
+      tagline: "3 a 9 anos",
+      benefits: ["Mini Campeões (3-4)", "Pequenos Campeões (5-9)", "Disciplina e foco", "Anti-bullying"],
+    },
+    {
+      code: "GBK+",
+      title: "Infantil Avançado",
+      img: kidsImg,
+      icon: GraduationCap,
+      tagline: "Juniores & Adolescentes",
+      benefits: ["Juniores (10-12 anos)", "Adolescentes", "Técnica aprofundada", "Preparação p/ competir"],
     },
     {
       code: "GBF",
       title: "Feminino",
       img: womenImg,
       icon: Heart,
-      tagline: "Defesa pessoal",
-      benefits: ["Turmas exclusivas", "Ambiente seguro", "Autodefesa real", "Condicionamento"],
+      tagline: "Exclusivo mulheres",
+      benefits: ["Turmas só para elas", "Ambiente seguro", "Autodefesa real", "Condicionamento"],
     },
     {
       code: "GB1",
       title: "Iniciantes",
       img: adultsImg,
       icon: Flame,
-      tagline: "Adultos",
-      benefits: ["Zero experiência", "Progressão clara", "Alívio do estresse", "Comunidade forte"],
+      tagline: "Adultos · Faixa branca",
+      benefits: ["Zero experiência", "Fundamentos GB", "Progressão clara", "Comunidade forte"],
+    },
+    {
+      code: "GB2",
+      title: "Intermediário",
+      img: adultsImg,
+      icon: Zap,
+      tagline: "Branca 3 graus +",
+      benefits: ["Evolução técnica", "Sparring guiado", "Novas posições", "Prep. faixa azul"],
+    },
+    {
+      code: "GB3",
+      title: "Avançado",
+      img: adultsImg,
+      icon: Star,
+      tagline: "Azul · Roxa · Marrom",
+      benefits: ["Programa avançado", "Alta técnica", "Estratégia de luta", "Refinamento"],
+    },
+    {
+      code: "NOGI",
+      title: "No Gi",
+      img: compImg,
+      icon: Swords,
+      tagline: "Sem kimono",
+      benefits: ["Grappling moderno", "Base p/ MMA", "Ritmo acelerado", "Condicionamento"],
+    },
+    {
+      code: "DP",
+      title: "Defesa Pessoal",
+      img: womenImg,
+      icon: Shield,
+      tagline: "Autodefesa real",
+      benefits: ["Situações reais", "Técnicas objetivas", "Consciência de risco", "Confiança pessoal"],
+    },
+    {
+      code: "ADAPT",
+      title: "Jiu-Jitsu Adaptado",
+      img: adultsImg,
+      icon: Accessibility,
+      tagline: "Para todos",
+      benefits: ["Aulas inclusivas", "Adaptação individual", "Ambiente acolhedor", "Progresso no seu ritmo"],
     },
     {
       code: "COMP",
@@ -339,7 +392,7 @@ function Programs() {
       img: compImg,
       icon: Trophy,
       tagline: "Alta performance",
-      benefits: ["Treinos avançados", "Estratégia de luta", "Preparação física", "Circuito nacional"],
+      benefits: ["Treinos específicos", "Estratégia de luta", "Preparação física", "Circuito nacional"],
     },
   ];
   return (
@@ -364,9 +417,9 @@ function Programs() {
           </div>
         </FadeIn>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {programs.map((p, i) => (
-            <ProgramCard key={p.code} program={p} delay={i * 0.1} />
+            <ProgramCard key={p.code} program={p} delay={i * 0.05} />
           ))}
         </div>
 
