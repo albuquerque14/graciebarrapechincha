@@ -21,6 +21,9 @@ import {
   Accessibility,
   GraduationCap,
   Zap,
+  BookOpen,
+  Car,
+  Bus,
 } from "lucide-react";
 
 import { FloatingWhatsApp, WhatsAppCTA } from "@/components/whatsapp-button";
