@@ -19,7 +19,8 @@ import {
 } from "lucide-react";
 
 import { FloatingWhatsApp, WhatsAppCTA } from "@/components/whatsapp-button";
-import heroImg from "@/assets/hero-jiujitsu.jpg";
+import heroAsset from "@/assets/hero-group.jpg.asset.json";
+const heroImg = heroAsset.url;
 import beltImg from "@/assets/belt-detail.jpg";
 import gbLogo from "@/assets/gb-logo.png.asset.json";
 import kidsImg from "@/assets/program-kids.jpg";
