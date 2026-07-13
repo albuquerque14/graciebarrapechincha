@@ -490,7 +490,11 @@ function ProgramCard({
               {program.tagline}
             </div>
             <h3
-              className="mt-2 text-3xl font-bold uppercase leading-none tracking-tight text-white md:text-4xl"
+              className={`mt-2 font-bold uppercase leading-none tracking-tight text-white ${
+                program.title.length > 10
+                  ? "text-2xl md:text-3xl"
+                  : "text-3xl md:text-4xl"
+              }`}
               style={{ fontFamily: "var(--font-display)" }}
             >
               {program.title}
