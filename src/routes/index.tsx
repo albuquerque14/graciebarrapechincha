@@ -231,7 +231,7 @@ function AboutGB() {
   const stats = [
     { value: 15, suffix: "+", label: "Anos transformando vidas" },
     { value: 50, suffix: "+", label: "Faixas-pretas formados" },
-    { value: 5, suffix: "", label: "Públicos atendidos" },
+    { value: 50, suffix: "+", label: "Turmas por semana" },
     { value: 5, suffix: "", label: "Dias de treino por semana" },
   ];
   return (
