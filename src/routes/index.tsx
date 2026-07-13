@@ -523,11 +523,14 @@ function ProgramCard({
 /* ---------- WHY GB ---------- */
 function WhyGB() {
   const items = [
-    { icon: Globe2, title: "Metodologia mundial", desc: "O mesmo programa ensinado em mais de 900 escolas ao redor do mundo." },
-    { icon: ShieldCheck, title: "Professores certificados", desc: "Faixas-pretas formados diretamente pela sede da Gracie Barra." },
-    { icon: Users, title: "Ambiente familiar", desc: "Um espaço acolhedor para toda a família treinar com segurança." },
-    { icon: MapPin, title: "Localização premium", desc: "Dentro do Center Shopping Pechincha. Estacionamento, praça de alimentação, segurança." },
-    { icon: Sparkles, title: "Estrutura completa", desc: "Tatames profissionais, vestiários e ambiente climatizado o ano todo." },
+    { icon: Trophy, title: "+15 anos de experiência", desc: "Uma escola consolidada, reconhecida pela qualidade do ensino e pela formação de dezenas de faixas-pretas." },
+    { icon: BookOpen, title: "Método Gracie Barra", desc: "Programa mundial, progressivo e padronizado, com acompanhamento da evolução de cada aluno desde a primeira aula até a faixa-preta." },
+    { icon: ShieldCheck, title: "Professores certificados", desc: "Faixas-pretas formados diretamente pela sede da Gracie Barra, prontos para acompanhar sua jornada." },
+    { icon: Users, title: "Comunidade para toda família", desc: "Turmas para crianças, adolescentes, adultos e mulheres, em um ambiente acolhedor, seguro e motivador." },
+    { icon: Clock, title: "Horários flexíveis", desc: "Diversas opções ao longo da semana para você conciliar o Jiu-Jitsu com a sua rotina." },
+    { icon: Car, title: "Dentro do shopping", desc: "Treine no Center Shopping Pechincha com 2 horas de estacionamento gratuito e toda a comodidade do local." },
+    { icon: Bus, title: "Fácil acesso", desc: "Região central da Zona Oeste, com acesso simples por transporte público e particular." },
+    { icon: Sparkles, title: "Para todos os objetivos", desc: "Defesa pessoal, qualidade de vida, condicionamento, desenvolvimento infantil, competição e formação técnica." },
   ];
   return (
     <section className="relative overflow-hidden bg-[#0a0a0a] py-24 md:py-32">
