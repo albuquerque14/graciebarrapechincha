@@ -759,7 +759,7 @@ function FinalCTA() {
         </FadeIn>
         <FadeIn delay={0.15}>
           <h2
-            className="mt-6 text-4xl font-bold uppercase leading-[0.95] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl"
+            className="mt-6 text-4xl font-bold uppercase leading-[1.15] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Sua primeira aula<br />é <span className="italic">gratuita</span>.
@@ -793,9 +793,11 @@ function Footer() {
     <footer className="border-t border-white/5 bg-[#0a0a0a] py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 md:flex-row">
         <div className="flex items-center gap-3">
-          <div className="flex h-9 w-9 items-center justify-center rounded-sm bg-[#cc0000] text-sm font-bold text-white" style={{ fontFamily: "var(--font-display)" }}>
-            GB
-          </div>
+          <img
+            src={gbLogo.url}
+            alt="Gracie Barra Pechincha"
+            className="h-10 w-10 object-contain"
+          />
           <div className="text-xs uppercase tracking-widest text-white/60" style={{ fontFamily: "var(--font-display)" }}>
             Gracie Barra Pechincha
           </div>
