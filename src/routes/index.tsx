@@ -704,7 +704,7 @@ function Location() {
                     <div className="text-sm font-bold uppercase tracking-widest text-white" style={{ fontFamily: "var(--font-display)" }}>Horários</div>
                     <p className="mt-1 text-white/70">
                       Seg. a Sex.: 07h — 22h<br />
-                      Sábados: 09h — 14h
+                      Sábados: aula única às 09h
                     </p>
                   </div>
                 </div>
