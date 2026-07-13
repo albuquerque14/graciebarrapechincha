@@ -21,6 +21,7 @@ import {
 import { FloatingWhatsApp, WhatsAppCTA } from "@/components/whatsapp-button";
 import heroImg from "@/assets/hero-jiujitsu.jpg";
 import beltImg from "@/assets/belt-detail.jpg";
+import gbLogo from "@/assets/gb-logo.png.asset.json";
 import kidsImg from "@/assets/program-kids.jpg";
 import womenImg from "@/assets/program-women.jpg";
 import adultsImg from "@/assets/program-adults.jpg";
@@ -85,12 +86,11 @@ function Hero() {
           transition={{ duration: 0.8 }}
           className="flex items-center gap-3"
         >
-          <div className="flex h-10 w-10 items-center justify-center rounded-sm border border-[#cc0000] bg-[#cc0000] font-bold text-white" style={{ fontFamily: "var(--font-display)" }}>
-            GB
-          </div>
-          <div className="hidden text-xs uppercase tracking-[0.2em] text-white/80 md:block" style={{ fontFamily: "var(--font-display)" }}>
-            Gracie Barra Pechincha
-          </div>
+          <img
+            src={gbLogo.url}
+            alt="Gracie Barra Pechincha — Jiu-Jitsu & Defesa Pessoal"
+            className="h-14 w-14 object-contain md:h-16 md:w-16"
+          />
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
