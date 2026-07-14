@@ -36,6 +36,7 @@ import womenImg from "@/assets/program-women.jpg";
 import femininoImg from "@/assets/feminino.jpg.asset.json";
 import avancadoImg from "@/assets/avancado.jpg.asset.json";
 import nogiImg from "@/assets/nogi.jpg.asset.json";
+import defesaPessoalImg from "@/assets/defesa-pessoal.jpg.asset.json";
 import adultsImg from "@/assets/program-adults.jpg";
 import compImg from "@/assets/program-competition.jpg";
 
@@ -376,7 +377,7 @@ function Programs() {
     {
       code: "DP",
       title: "Defesa Pessoal",
-      img: womenImg,
+      img: defesaPessoalImg.url,
       icon: Shield,
       tagline: "Autodefesa real",
       benefits: ["Situações reais", "Técnicas objetivas", "Consciência de risco", "Confiança pessoal"],
