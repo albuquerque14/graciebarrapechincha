@@ -32,6 +32,7 @@ const heroImg = heroAsset.url;
 import beltImg from "@/assets/belt-detail.jpg";
 import gbLogo from "@/assets/gb-logo.png.asset.json";
 import kidsImg from "@/assets/kids.jpg.asset.json";
+import kidsGenericImg from "@/assets/program-kids.jpg";
 import womenImg from "@/assets/program-women.jpg";
 import femininoImg from "@/assets/feminino.jpg.asset.json";
 import avancadoImg from "@/assets/avancado.jpg.asset.json";
@@ -331,7 +332,7 @@ function Programs() {
     {
       code: "GBK+",
       title: "Infantil Avançado",
-      img: kidsImg.url,
+      img: kidsGenericImg,
       icon: GraduationCap,
       tagline: "Juniores & Adolescentes",
       benefits: ["Juniores (10-12 anos)", "Adolescentes", "Técnica aprofundada", "Preparação p/ competir"],
