@@ -33,6 +33,7 @@ import beltImg from "@/assets/belt-detail.jpg";
 import gbLogo from "@/assets/gb-logo.png.asset.json";
 import kidsImg from "@/assets/program-kids.jpg";
 import womenImg from "@/assets/program-women.jpg";
+import femininoImg from "@/assets/feminino.jpg.asset.json";
 import adultsImg from "@/assets/program-adults.jpg";
 import compImg from "@/assets/program-competition.jpg";
 
