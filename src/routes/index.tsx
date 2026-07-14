@@ -34,6 +34,7 @@ import gbLogo from "@/assets/gb-logo.png.asset.json";
 import kidsImg from "@/assets/program-kids.jpg";
 import womenImg from "@/assets/program-women.jpg";
 import femininoImg from "@/assets/feminino.jpg.asset.json";
+import avancadoImg from "@/assets/avancado.jpg.asset.json";
 import adultsImg from "@/assets/program-adults.jpg";
 import compImg from "@/assets/program-competition.jpg";
 
@@ -358,7 +359,7 @@ function Programs() {
     {
       code: "GB3",
       title: "Avançado",
-      img: adultsImg,
+      img: avancadoImg.url,
       icon: Star,
       tagline: "Azul · Roxa · Marrom",
       benefits: ["Programa avançado", "Alta técnica", "Estratégia de luta", "Refinamento"],
