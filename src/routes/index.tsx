@@ -31,7 +31,7 @@ import heroAsset from "@/assets/hero-group.jpg.asset.json";
 const heroImg = heroAsset.url;
 import beltImg from "@/assets/belt-detail.jpg";
 import gbLogo from "@/assets/gb-logo.png.asset.json";
-import kidsImg from "@/assets/program-kids.jpg";
+import kidsImg from "@/assets/kids.jpg.asset.json";
 import womenImg from "@/assets/program-women.jpg";
 import femininoImg from "@/assets/feminino.jpg.asset.json";
 import avancadoImg from "@/assets/avancado.jpg.asset.json";
@@ -321,7 +321,7 @@ function Programs() {
     {
       code: "GBK",
       title: "Kids",
-      img: kidsImg,
+      img: kidsImg.url,
       icon: Baby,
       tagline: "3 a 9 anos",
       benefits: ["Mini Campeões (3-4)", "Pequenos Campeões (5-9)", "Disciplina e foco", "Anti-bullying"],
@@ -329,7 +329,7 @@ function Programs() {
     {
       code: "GBK+",
       title: "Infantil Avançado",
-      img: kidsImg,
+      img: kidsImg.url,
       icon: GraduationCap,
       tagline: "Juniores & Adolescentes",
       benefits: ["Juniores (10-12 anos)", "Adolescentes", "Técnica aprofundada", "Preparação p/ competir"],
