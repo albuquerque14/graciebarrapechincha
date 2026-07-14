@@ -38,6 +38,7 @@ import avancadoImg from "@/assets/avancado.jpg.asset.json";
 import nogiImg from "@/assets/nogi.jpg.asset.json";
 import defesaPessoalImg from "@/assets/defesa-pessoal.jpg.asset.json";
 import iniciantesImg from "@/assets/iniciantes.jpg.asset.json";
+import intermediarioImg from "@/assets/intermediario.jpg.asset.json";
 import adultsImg from "@/assets/program-adults.jpg";
 import competicaoImg from "@/assets/competicao.jpg.asset.json";
 
@@ -354,7 +355,7 @@ function Programs() {
     {
       code: "GB2",
       title: "Intermediário",
-      img: adultsImg,
+      img: intermediarioImg.url,
       icon: Zap,
       tagline: "Branca 3 graus +",
       benefits: ["Evolução técnica", "Sparring guiado", "Novas posições", "Prep. faixa azul"],
