@@ -334,7 +334,7 @@ function Programs() {
     {
       code: "GBF",
       title: "Feminino",
-      img: womenImg,
+      img: femininoImg.url,
       icon: Heart,
       tagline: "Exclusivo mulheres",
       benefits: ["Turmas só para elas", "Ambiente seguro", "Autodefesa real", "Condicionamento"],
