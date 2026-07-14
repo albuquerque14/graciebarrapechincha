@@ -768,7 +768,7 @@ function FinalCTA() {
         </FadeIn>
         <FadeIn delay={0.3}>
           <p className="mt-6 text-lg text-white/90 md:text-xl">
-            Sem compromisso. Sem taxa. Só você, o tatame e uma decisão que pode mudar tudo.
+            Só você, o tatame e uma decisão que pode mudar tudo.
           </p>
         </FadeIn>
         <FadeIn delay={0.45}>
