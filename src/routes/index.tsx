@@ -409,7 +409,7 @@ function Programs() {
           <div className="mb-16 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
             <div>
               <span className="text-xs uppercase tracking-[0.4em] text-[#cc0000]" style={{ fontFamily: "var(--font-display)" }}>
-                Programas
+                Turmas
               </span>
               <h2
                 className="mt-3 text-3xl font-bold uppercase leading-tight tracking-tight text-white md:text-5xl"
