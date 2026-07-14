@@ -164,9 +164,6 @@ function Hero() {
           className="mt-10 flex flex-col items-center justify-center gap-4"
         >
           <WhatsAppCTA size="lg">Aula experimental gratuita</WhatsAppCTA>
-          <p className="text-xs uppercase tracking-widest text-white/50">
-            Sem compromisso · Resposta em minutos
-          </p>
         </motion.div>
       </motion.div>
 
