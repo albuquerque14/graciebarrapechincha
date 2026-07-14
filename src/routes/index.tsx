@@ -247,7 +247,7 @@ function AboutGB() {
     { value: 5, suffix: "", label: "Dias de treino por semana" },
   ];
   return (
-    <section className="relative overflow-hidden border-y border-white/5 bg-[#0a0a0a] py-24 md:py-32">
+    <section className="relative overflow-hidden border-y border-white/5 bg-[#0a0a0a] pt-14 md:pt-16 pb-24 md:pb-32">
       <div className="absolute inset-0 opacity-20">
         <img src={beltImg} alt="" className="h-full w-full object-cover" width={1200} height={800} loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-black" />
@@ -403,7 +403,7 @@ function Programs() {
     },
   ];
   return (
-    <section className="relative bg-background py-24 md:py-32">
+    <section className="relative bg-background pt-14 md:pt-16 pb-24 md:pb-32">
       <div className="mx-auto max-w-7xl px-6">
         <FadeIn>
           <div className="mb-16 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
@@ -541,7 +541,7 @@ function WhyGB() {
     { icon: Sparkles, title: "Para todos os objetivos", desc: "Defesa pessoal, qualidade de vida, condicionamento, desenvolvimento infantil, competição e formação técnica." },
   ];
   return (
-    <section className="relative overflow-hidden bg-[#0a0a0a] py-24 md:py-32">
+    <section className="relative overflow-hidden bg-[#0a0a0a] pt-14 md:pt-16 pb-24 md:pb-32">
       <div className="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-[#cc0000]/5 to-transparent" />
       <div className="relative mx-auto max-w-6xl px-6">
         <FadeIn>
@@ -608,7 +608,7 @@ function Testimonials() {
   const [emblaRef] = useEmblaCarousel({ loop: true, align: "start" }, [Autoplay({ delay: 4500 })]);
 
   return (
-    <section className="relative bg-background py-24 md:py-32">
+    <section className="relative bg-background pt-14 md:pt-16 pb-24 md:pb-32">
       <div className="mx-auto max-w-7xl px-6">
         <FadeIn>
           <div className="mb-14 flex items-end justify-between">
@@ -677,7 +677,7 @@ function Testimonials() {
 /* ---------- LOCATION ---------- */
 function Location() {
   return (
-    <section className="relative bg-[#0a0a0a] py-24 md:py-32">
+    <section className="relative bg-[#0a0a0a] pt-14 md:pt-16 pb-24 md:pb-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
           <FadeIn>
@@ -745,7 +745,7 @@ function Location() {
 /* ---------- FINAL CTA ---------- */
 function FinalCTA() {
   return (
-    <section className="relative overflow-hidden bg-[#cc0000] py-24 md:py-40">
+    <section className="relative overflow-hidden bg-[#cc0000] pt-14 md:pt-20 pb-24 md:pb-40">
       <div className="absolute inset-0 opacity-20 mix-blend-overlay">
         <div
           className="h-full w-full"
