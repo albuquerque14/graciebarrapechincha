@@ -39,7 +39,7 @@ import nogiImg from "@/assets/nogi.jpg.asset.json";
 import defesaPessoalImg from "@/assets/defesa-pessoal.jpg.asset.json";
 import iniciantesImg from "@/assets/iniciantes.jpg.asset.json";
 import adultsImg from "@/assets/program-adults.jpg";
-import compImg from "@/assets/program-competition.jpg";
+import competicaoImg from "@/assets/competicao.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -394,7 +394,7 @@ function Programs() {
     {
       code: "COMP",
       title: "Competição",
-      img: compImg,
+      img: competicaoImg.url,
       icon: Trophy,
       tagline: "Alta performance",
       benefits: ["Treinos específicos", "Estratégia de luta", "Preparação física", "Circuito nacional"],
