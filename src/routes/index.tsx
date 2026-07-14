@@ -37,6 +37,7 @@ import femininoImg from "@/assets/feminino.jpg.asset.json";
 import avancadoImg from "@/assets/avancado.jpg.asset.json";
 import nogiImg from "@/assets/nogi.jpg.asset.json";
 import defesaPessoalImg from "@/assets/defesa-pessoal.jpg.asset.json";
+import iniciantesImg from "@/assets/iniciantes.jpg.asset.json";
 import adultsImg from "@/assets/program-adults.jpg";
 import compImg from "@/assets/program-competition.jpg";
 
@@ -345,7 +346,7 @@ function Programs() {
     {
       code: "GB1",
       title: "Iniciantes",
-      img: adultsImg,
+      img: iniciantesImg.url,
       icon: Flame,
       tagline: "Adultos · Faixa branca",
       benefits: ["Zero experiência", "Fundamentos GB", "Progressão clara", "Comunidade forte"],
