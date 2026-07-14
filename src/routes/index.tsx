@@ -35,6 +35,7 @@ import kidsImg from "@/assets/program-kids.jpg";
 import womenImg from "@/assets/program-women.jpg";
 import femininoImg from "@/assets/feminino.jpg.asset.json";
 import avancadoImg from "@/assets/avancado.jpg.asset.json";
+import nogiImg from "@/assets/nogi.jpg.asset.json";
 import adultsImg from "@/assets/program-adults.jpg";
 import compImg from "@/assets/program-competition.jpg";
 
@@ -367,7 +368,7 @@ function Programs() {
     {
       code: "NOGI",
       title: "No Gi",
-      img: compImg,
+      img: nogiImg.url,
       icon: Swords,
       tagline: "Sem kimono",
       benefits: ["Grappling moderno", "Base p/ MMA", "Ritmo acelerado", "Condicionamento"],
