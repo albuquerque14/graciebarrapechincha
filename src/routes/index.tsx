@@ -326,16 +326,8 @@ function Programs() {
       title: "Kids",
       img: kidsImg.url,
       icon: Baby,
-      tagline: "3 a 9 anos",
+      tagline: "3 a 12 anos",
       benefits: ["Mini Campeões (3-4)", "Pequenos Campeões (5-9)", "Disciplina e foco", "Anti-bullying"],
-    },
-    {
-      code: "GBK+",
-      title: "Infantil Avançado",
-      img: kidsGenericImg,
-      icon: GraduationCap,
-      tagline: "Juniores & Adolescentes",
-      benefits: ["Juniores (10-12 anos)", "Adolescentes", "Técnica aprofundada", "Preparação p/ competir"],
     },
     {
       code: "GBF",
