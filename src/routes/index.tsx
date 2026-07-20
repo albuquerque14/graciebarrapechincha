@@ -495,24 +495,6 @@ function ProgramCard({
             >
               {program.title}
             </h3>
-
-            <motion.ul
-              variants={{
-                rest: { height: 0, opacity: 0 },
-                hover: { height: "auto", opacity: 1 },
-              }}
-              transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              className="mt-3 overflow-hidden text-sm text-white/80"
-            >
-              <div className="space-y-1 pt-2">
-                {program.benefits.map((b) => (
-                  <li key={b} className="flex items-center gap-2">
-                    <span className="h-1 w-3 bg-[#cc0000]" />
-                    {b}
-                  </li>
-                ))}
-              </div>
-            </motion.ul>
           </div>
         </div>
       </motion.div>
