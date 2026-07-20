@@ -330,14 +330,6 @@ function Programs() {
       benefits: ["Mini Campeões (3-4)", "Pequenos Campeões (5-9)", "Disciplina e foco", "Anti-bullying"],
     },
     {
-      code: "GBK+",
-      title: "Infantil Avançado",
-      img: kidsGenericImg,
-      icon: GraduationCap,
-      tagline: "Juniores & Adolescentes",
-      benefits: ["Juniores (10-12 anos)", "Adolescentes", "Técnica aprofundada", "Preparação p/ competir"],
-    },
-    {
       code: "GBF",
       title: "Feminino",
       img: femininoImg.url,
