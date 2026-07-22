@@ -80,12 +80,12 @@ function Hero() {
         <img
           src={heroImg}
           alt="Atletas de Jiu-Jitsu treinando"
-          className="h-full w-full object-cover opacity-60"
+          className="h-full w-full object-cover opacity-90"
           width={1920}
           height={1280}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/25 to-black/80" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/30" />
         {/* red scan line */}
         <div className="pointer-events-none absolute inset-0 overflow-hidden opacity-40">
           <div className="animate-scan absolute inset-x-0 h-[2px] bg-gradient-to-r from-transparent via-[#cc0000] to-transparent" />
