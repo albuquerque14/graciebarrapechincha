@@ -84,8 +84,8 @@ function Hero() {
           width={1920}
           height={1280}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/25 to-black/80" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/90" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/20 to-black/50" />
         {/* red scan line */}
         <div className="pointer-events-none absolute inset-0 overflow-hidden opacity-40">
           <div className="animate-scan absolute inset-x-0 h-[2px] bg-gradient-to-r from-transparent via-[#cc0000] to-transparent" />
