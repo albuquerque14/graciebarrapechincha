@@ -241,7 +241,7 @@ function Particles() {
 /* ---------- ABOUT / COUNTERS ---------- */
 function AboutGB() {
   const stats = [
-    { value: 15, suffix: "+", label: "Anos transformando vidas" },
+    { value: 20, suffix: "+", label: "Anos transformando vidas" },
     { value: 50, suffix: "+", label: "Faixas-pretas formados" },
     { value: 20, suffix: "+", label: "Turmas por semana" },
     { value: 6, suffix: "", label: "Dias de treino por semana" },
@@ -268,7 +268,7 @@ function AboutGB() {
         </FadeIn>
         <FadeIn delay={0.15}>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/70 md:text-lg">
-            Há mais de 15 anos, nossa escola transforma vidas por meio do Jiu-Jitsu, formando atletas, famílias e dezenas de faixas-pretas. Seja para defesa pessoal, saúde, disciplina ou competição, você encontrará uma equipe preparada para acompanhar sua evolução desde a primeira aula.
+            Há mais de 20 anos, nossa escola transforma vidas por meio do Jiu-Jitsu, formando atletas, famílias e dezenas de faixas-pretas. Seja para defesa pessoal, saúde, disciplina ou competição, você encontrará uma equipe preparada para acompanhar sua evolução desde a primeira aula.
           </p>
         </FadeIn>
 
@@ -505,7 +505,7 @@ function ProgramCard({
 /* ---------- WHY GB ---------- */
 function WhyGB() {
   const items = [
-    { icon: Trophy, title: "+15 anos de experiência", desc: "Uma escola consolidada, reconhecida pela qualidade do ensino e pela formação de dezenas de faixas-pretas." },
+    { icon: Trophy, title: "+20 anos de experiência", desc: "Uma escola consolidada, reconhecida pela qualidade do ensino e pela formação de dezenas de faixas-pretas." },
     { icon: BookOpen, title: "Método Gracie Barra", desc: "Programa mundial, progressivo e padronizado, com acompanhamento da evolução de cada aluno desde a primeira aula até a faixa-preta." },
     { icon: ShieldCheck, title: "Professores certificados", desc: "Faixas-pretas formados diretamente pela sede da Gracie Barra, prontos para acompanhar sua jornada." },
     { icon: Users, title: "Comunidade para toda família", desc: "Turmas para crianças, adolescentes, adultos e mulheres, em um ambiente acolhedor, seguro e motivador." },
