@@ -105,18 +105,18 @@ function Hero() {
           <img
             src={gbLogo.url}
             alt="Gracie Barra Pechincha — Jiu-Jitsu & Defesa Pessoal"
-            className="h-14 w-14 object-contain md:h-16 md:w-16"
+            className="h-20 w-20 object-contain md:h-24 md:w-24"
           />
           <div className="flex flex-col leading-tight" style={{ fontFamily: "var(--font-display)" }}>
-            <span className="text-sm font-bold uppercase tracking-widest text-white md:text-base">Gracie Barra</span>
-            <span className="text-xs uppercase tracking-[0.2em] text-[#cc0000] md:text-sm">Pechincha</span>
+            <span className="text-base font-bold uppercase tracking-widest text-white md:text-xl">Gracie Barra</span>
+            <span className="text-sm uppercase tracking-[0.2em] text-[#cc0000] md:text-base">Pechincha</span>
           </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="hidden items-center gap-2 text-xs uppercase tracking-widest text-white/60 md:flex"
+          className="hidden items-center gap-2 text-sm uppercase tracking-widest text-white/60 md:flex md:text-base"
           style={{ fontFamily: "var(--font-display)" }}
         >
           <MapPin className="h-4 w-4 text-[#cc0000]" />
