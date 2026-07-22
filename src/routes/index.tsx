@@ -458,14 +458,14 @@ function ProgramCard({
         <motion.img
           src={program.img}
           alt={program.title}
-          className="absolute inset-0 h-full w-full object-cover opacity-70"
+          className="absolute inset-0 h-full w-full object-cover opacity-95"
           variants={{ rest: { scale: 1 }, hover: { scale: 1.08 } }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           width={800}
           height={1000}
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
         <motion.div
           className="absolute inset-x-0 top-0 h-1 bg-[#cc0000]"
           variants={{ rest: { scaleX: 0 }, hover: { scaleX: 1 } }}
