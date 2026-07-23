@@ -242,7 +242,7 @@ function Particles() {
 function AboutGB() {
   const stats = [
     { value: 20, suffix: "+", label: "Anos transformando vidas" },
-    { value: 50, suffix: "+", label: "Faixas-pretas formados" },
+    { value: 100, suffix: "+", label: "Faixas-pretas formados" },
     { value: 20, suffix: "+", label: "Turmas por semana" },
     { value: 6, suffix: "", label: "Dias de treino por semana" },
   ];
