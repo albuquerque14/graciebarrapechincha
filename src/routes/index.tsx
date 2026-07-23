@@ -253,16 +253,13 @@ function AboutGB() {
         <img src={beltImg} alt="" className="h-full w-full object-cover" width={1200} height={800} loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-black" />
       </div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-1/2 md:block">
-        <img
-          src={gbLogo3d.url}
-          alt=""
-          aria-hidden="true"
-          className="absolute right-0 top-1/2 h-[110%] max-h-[720px] w-auto -translate-y-1/2 object-contain opacity-70"
-          loading="lazy"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent" />
-      </div>
+      <img
+        src={gbLogo3d.url}
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none absolute right-[-4%] top-1/2 hidden h-[85%] max-h-[560px] w-auto -translate-y-1/2 object-contain opacity-80 md:block"
+        loading="lazy"
+      />
       <div className="relative mx-auto max-w-6xl px-6">
         <FadeIn>
           <span className="text-xs uppercase tracking-[0.4em] text-[#cc0000]" style={{ fontFamily: "var(--font-display)" }}>
