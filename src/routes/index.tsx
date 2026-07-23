@@ -257,7 +257,7 @@ function AboutGB() {
         src={gbLogo3d.url}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute right-[-4%] top-1/2 hidden h-[85%] max-h-[560px] w-auto -translate-y-1/2 object-contain opacity-80 md:block"
+          className="pointer-events-none absolute right-[-4%] top-1/2 z-10 hidden h-[85%] max-h-[560px] w-auto -translate-y-1/2 object-contain opacity-90 md:block"
         loading="lazy"
       />
       <div className="relative mx-auto max-w-6xl px-6">
