@@ -31,6 +31,7 @@ import heroAsset from "@/assets/hero-group.jpg.asset.json";
 const heroImg = heroAsset.url;
 import beltImg from "@/assets/belt-detail.jpg";
 import gbLogo from "@/assets/gb-logo.png.asset.json";
+import gbLogo3d from "@/assets/gb-logo-3d.png.asset.json";
 import kidsImg from "@/assets/kids.jpg.asset.json";
 import kidsGenericImg from "@/assets/program-kids.jpg";
 import womenImg from "@/assets/program-women.jpg";
