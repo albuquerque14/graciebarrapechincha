@@ -519,15 +519,20 @@ function WhyGB() {
       <div className="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-[#cc0000]/5 to-transparent" />
       <div className="relative mx-auto max-w-6xl px-6">
         <FadeIn>
-          <span className="text-xs uppercase tracking-[0.4em] text-[#cc0000]" style={{ fontFamily: "var(--font-display)" }}>
-            Diferenciais
-          </span>
-          <h2
-            className="mt-3 max-w-3xl text-3xl font-bold uppercase leading-tight tracking-tight text-white md:text-5xl"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            Por que a GB <span className="text-[#cc0000]">Pechincha</span>
-          </h2>
+          <div className="flex items-start justify-between gap-6">
+            <div>
+              <span className="text-xs uppercase tracking-[0.4em] text-[#cc0000]" style={{ fontFamily: "var(--font-display)" }}>
+                Diferenciais
+              </span>
+              <h2
+                className="mt-3 max-w-3xl text-3xl font-bold uppercase leading-tight tracking-tight text-white md:text-5xl"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                Por que a GB <span className="text-[#cc0000]">Pechincha</span>
+              </h2>
+            </div>
+            <img src={gbLogo.url} alt="Gracie Barra Pechincha" className="h-16 w-16 shrink-0 md:h-24 md:w-24" />
+          </div>
         </FadeIn>
 
         <div className="mt-16 divide-y divide-white/5 border-y border-white/5">
@@ -597,6 +602,7 @@ function Testimonials() {
                 Vidas <span className="text-[#cc0000]">transformadas</span>
               </h2>
             </div>
+            <img src={gbLogo.url} alt="Gracie Barra Pechincha" className="h-16 w-16 shrink-0 md:h-24 md:w-24" />
           </div>
         </FadeIn>
 
