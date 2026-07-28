@@ -138,12 +138,12 @@ function Hero() {
         </motion.div>
 
         <h1
-          className="mx-auto max-w-4xl text-4xl font-bold uppercase leading-[0.95] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl"
+          className="mx-auto max-w-5xl text-4xl font-bold uppercase leading-[0.95] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          <RevealText text="Jiu-Jitsu que" delay={0.5} />
+          <RevealText text="Aprenda Jiu-Jitsu" delay={0.5} />
           <br />
-          <RevealText text="transforma." delay={0.9} className="text-[#cc0000]" />
+          <RevealText text="na maior escola do mundo." delay={0.9} className="text-[#cc0000]" />
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -151,19 +151,10 @@ function Hero() {
             className="mt-4 block text-lg font-normal normal-case tracking-normal text-white/70 md:text-xl"
             style={{ fontFamily: "var(--font-sans)" }}
           >
-            No coração da Zona Oeste.
+            Gracie Barra Pechincha · Center Shopping
           </motion.span>
         </h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.8, duration: 0.8 }}
-          className="mx-auto mt-6 max-w-xl text-sm uppercase tracking-[0.25em] text-white/60"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          Gracie Barra Pechincha · Center Shopping
-        </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
