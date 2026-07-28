@@ -487,14 +487,14 @@ function ProgramCard({
         />
 
         <div className="relative z-10 flex h-full flex-col justify-between p-6">
-          <div className="flex items-start justify-between">
+          <div className="flex items-center justify-between">
             <span className="rounded-sm border border-white/20 bg-black/40 px-2 py-1 text-[10px] uppercase tracking-widest text-white/80 backdrop-blur-sm" style={{ fontFamily: "var(--font-display)" }}>
               {program.code}
             </span>
             <img
               src={gbLogo.url}
               alt="Gracie Barra Pechincha"
-              className="w-[24%] max-w-[70px] shrink-0 opacity-90"
+              className="h-7 w-auto shrink-0 opacity-90"
             />
           </div>
 
