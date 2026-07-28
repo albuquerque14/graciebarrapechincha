@@ -460,7 +460,6 @@ function ProgramCard({
   };
   delay: number;
 }) {
-  const Icon = program.icon;
   return (
     <FadeIn delay={delay}>
       <motion.div
