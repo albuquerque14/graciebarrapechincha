@@ -155,15 +155,6 @@ function Hero() {
           </motion.span>
         </h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.8, duration: 0.8 }}
-          className="mx-auto mt-6 max-w-xl text-sm uppercase tracking-[0.25em] text-white/60"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          Gracie Barra Pechincha · Center Shopping
-        </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
