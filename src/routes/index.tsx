@@ -492,7 +492,11 @@ function ProgramCard({
             <span className="rounded-sm border border-white/20 bg-black/40 px-2 py-1 text-[10px] uppercase tracking-widest text-white/80 backdrop-blur-sm" style={{ fontFamily: "var(--font-display)" }}>
               {program.code}
             </span>
-            <Icon className="h-5 w-5 text-[#cc0000]" />
+            <img
+              src={gbLogo.url}
+              alt="Gracie Barra Pechincha"
+              className="h-[14%] w-auto max-h-14 min-h-8 shrink-0 opacity-90"
+            />
           </div>
 
           <div>
