@@ -494,7 +494,7 @@ function ProgramCard({
             <img
               src={gbLogo.url}
               alt="Gracie Barra Pechincha"
-              className="h-8 w-auto shrink-0 opacity-90"
+              className="h-9 w-auto shrink-0 opacity-90"
             />
           </div>
 
