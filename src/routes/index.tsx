@@ -35,7 +35,7 @@ import gbLogo3d from "@/assets/gb-logo-3d.png.asset.json";
 import kidsImg from "@/assets/kids.jpg.asset.json";
 import kidsGenericImg from "@/assets/program-kids.jpg";
 import womenImg from "@/assets/program-women.jpg";
-import femininoImg from "@/assets/feminino.jpg.asset.json";
+import femininoImg from "@/assets/feminino-turma.jpg.asset.json";
 import avancadoImg from "@/assets/avancado.jpg.asset.json";
 import nogiImg from "@/assets/nogi.jpg.asset.json";
 import defesaPessoalImg from "@/assets/defesa-pessoal.jpg.asset.json";
