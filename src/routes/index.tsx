@@ -253,18 +253,19 @@ function AboutGB() {
         <img src={beltImg} alt="" className="h-full w-full object-cover" width={1200} height={800} loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-black" />
       </div>
-      <motion.img
-        src={gbLogo3d.url}
-        alt=""
-        aria-hidden="true"
-        initial={{ opacity: 0, y: 32, scale: 0.92 }}
-        whileInView={{ opacity: 0.9, y: 0, scale: 1 }}
-        viewport={{ once: true, margin: "-80px" }}
-        transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-        className="pointer-events-none absolute right-[8%] top-[42%] z-0 hidden h-auto w-[32%] max-w-[380px] -translate-y-1/2 object-contain md:block"
-        style={{ translateY: "-50%" }}
-        loading="lazy"
-      />
+      <div className="pointer-events-none absolute right-[8%] top-[42%] z-0 hidden w-[32%] max-w-[380px] -translate-y-1/2 md:block">
+        <motion.img
+          src={gbLogo3d.url}
+          alt=""
+          aria-hidden="true"
+          initial={{ opacity: 0, y: 32, scale: 0.92 }}
+          whileInView={{ opacity: 0.9, y: 0, scale: 1 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+          className="h-auto w-full object-contain"
+          loading="lazy"
+        />
+      </div>
       <div className="relative mx-auto max-w-6xl px-6">
         <FadeIn>
           <span className="text-xs uppercase tracking-[0.4em] text-[#cc0000]" style={{ fontFamily: "var(--font-display)" }}>
