@@ -38,7 +38,6 @@ import womenImg from "@/assets/program-women.jpg";
 import femininoImg from "@/assets/feminino-turma-2.jpg.asset.json";
 import avancadoImg from "@/assets/avancado.jpg.asset.json";
 import nogiImg from "@/assets/nogi.jpg.asset.json";
-import defesaPessoalImg from "@/assets/defesa-pessoal.jpg.asset.json";
 import defesaPessoalMulheresImg from "@/assets/defesa-pessoal-mulheres.jpg.asset.json";
 import adaptadoImg from "@/assets/adaptado.jpg.asset.json";
 import iniciantesImg from "@/assets/iniciantes.jpg.asset.json";
