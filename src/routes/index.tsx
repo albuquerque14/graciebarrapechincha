@@ -536,7 +536,7 @@ function WhyGB() {
                 className="mt-3 max-w-3xl text-3xl font-bold uppercase leading-tight tracking-tight text-white md:text-5xl"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                Por que a GB <span className="text-[#cc0000]">Pechincha</span>
+                Por que a Gracie Barra <span className="text-[#cc0000]">Pechincha</span>
               </h2>
             </div>
             <img src={gbLogo.url} alt="Gracie Barra Pechincha" className="h-16 w-16 shrink-0 md:h-24 md:w-24" />
