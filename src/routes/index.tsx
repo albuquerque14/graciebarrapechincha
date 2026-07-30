@@ -38,10 +38,10 @@ import womenImg from "@/assets/program-women.jpg";
 import femininoImg from "@/assets/feminino-turma-2.jpg.asset.json";
 import avancadoImg from "@/assets/avancado.jpg.asset.json";
 import nogiImg from "@/assets/nogi.jpg.asset.json";
-import defesaPessoalImg from "@/assets/defesa-pessoal.jpg.asset.json";
+import defesaPessoalMulheresImg from "@/assets/defesa-pessoal-mulheres.jpg.asset.json";
+import adaptadoImg from "@/assets/adaptado.jpg.asset.json";
 import iniciantesImg from "@/assets/iniciantes.jpg.asset.json";
 import intermediarioImg from "@/assets/intermediario.jpg.asset.json";
-import adultsImg from "@/assets/program-adults.jpg";
 import competicaoImg from "@/assets/competicao.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -377,7 +377,7 @@ function Programs() {
     {
       code: "DP",
       title: "Defesa Pessoal",
-      img: defesaPessoalImg.url,
+      img: defesaPessoalMulheresImg.url,
       icon: Shield,
       tagline: "Autodefesa real",
       benefits: ["Situações reais", "Técnicas objetivas", "Consciência de risco", "Confiança pessoal"],
@@ -385,7 +385,7 @@ function Programs() {
     {
       code: "ADAPT",
       title: "Jiu-Jitsu Adaptado",
-      img: adultsImg,
+      img: adaptadoImg.url,
       icon: Accessibility,
       tagline: "Para todos",
       benefits: ["Aulas inclusivas", "Adaptação individual", "Ambiente acolhedor", "Progresso no seu ritmo"],
