@@ -586,7 +586,7 @@ function WhyGB() {
 /* ---------- TESTIMONIALS ---------- */
 function Testimonials() {
   const items = [
-    { name: "Rafael M.", role: "Faixa Azul · 2 anos", text: "Entrei querendo perder peso. Saí de cada aula sentindo que virei uma pessoa melhor. A GB Pechincha mudou minha rotina." },
+    { name: "Rafael M.", role: "Faixa Azul · 2 anos", text: "Entrei querendo perder peso. Saí de cada aula sentindo que virei uma pessoa melhor. A Gracie Barra Pechincha mudou minha rotina." },
     { name: "Camila S.", role: "GBF · 1 ano", text: "Sempre tive receio de treinar luta. Aqui encontrei um ambiente de mulheres fortes e professores que respeitam o meu ritmo." },
     { name: "Lucas P.", role: "Pai do aluno GBK", text: "Meu filho era tímido. Hoje é mais confiante, focado na escola e adora ir treinar. Vale cada real investido." },
     { name: "Juliana R.", role: "Faixa Branca · 6 meses", text: "Localização perfeita, ambiente familiar, professores atenciosos. Melhor decisão que tomei esse ano." },

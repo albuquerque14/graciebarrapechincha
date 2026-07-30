@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export const WHATSAPP_NUMBER = "5521997577237";
 export const WHATSAPP_MESSAGE =
-  "Olá! Vim pelo site e quero saber mais sobre a aula experimental gratuita na GB Pechincha 🥋";
+  "Olá! Vim pelo site e quero saber mais sobre a aula experimental gratuita na Gracie Barra Pechincha 🥋";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
 function WhatsAppIcon({ className = "h-5 w-5" }: { className?: string }) {
