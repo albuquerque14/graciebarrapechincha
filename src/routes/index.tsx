@@ -26,7 +26,7 @@ import {
   Bus,
 } from "lucide-react";
 
-import { FloatingWhatsApp, WhatsAppCTA } from "@/components/whatsapp-button";
+import { FloatingWhatsApp, WhatsAppCTA, WHATSAPP_URL } from "@/components/whatsapp-button";
 import heroAsset from "@/assets/hero-group.jpg.asset.json";
 const heroImg = heroAsset.url;
 import beltImg from "@/assets/belt-detail.jpg";
@@ -453,11 +453,14 @@ function ProgramCard({
 }) {
   return (
     <FadeIn delay={delay}>
-      <motion.div
+      <motion.a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
         whileHover="hover"
         initial="rest"
         animate="rest"
-        className="group relative aspect-[3/4] overflow-hidden rounded-sm border border-white/5 bg-[#111]"
+        className="group relative block aspect-[3/4] overflow-hidden rounded-sm border border-white/5 bg-[#111]"
       >
         <motion.img
           src={program.img}
@@ -505,7 +508,7 @@ function ProgramCard({
             </h3>
           </div>
         </div>
-      </motion.div>
+      </motion.a>
     </FadeIn>
   );
 }
