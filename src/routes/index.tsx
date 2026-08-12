@@ -591,47 +591,47 @@ function Testimonials() {
   const items = [
     {
       name: "Tiago Farias",
-      role: "Aluno",
-      text: "Excelente academia! O ambiente é extremamente acolhedor e familiar, fazendo com que todos se sintam parte da equipe desde o primeiro dia. Os professores são altamente qualificados, muito atenciosos e sempre dispostos a ensinar com paciência e dedicação. O clima de respeito, união e irmandade entre os alunos faz toda a diferença.",
+      role: "",
+      text: "Excelente academia! O ambiente é extremamente acolhedor e familiar, fazendo com que todos se sentam parte da equipe desde o primeiro dia. Os professores são altamente qualificados, muito atenciosos e sempre dispostos a ensinar com paciência e dedicação. O clima de respeito, união e irmandade entre os alunos faz toda a diferença.",
     },
     {
       name: "Isabela Oliveira",
-      role: "Aluna",
+      role: "",
       text: "Ambiente acolhedor, confortável, ótimos professores. Um lugar para levar pra vida!",
     },
     {
       name: "Sandra Benine",
-      role: "Aluna",
+      role: "",
       text: "Melhor GB do RJ",
     },
     {
       name: "Kamile Silva",
-      role: "Aluna",
+      role: "",
       text: "Se você procura um lugar acolhedor e cheio de aprendizado encontrou o lugar certo!!! Pessoas incríveis, professores cheios de vontades e cheio de muitos ensinamentos para dar, um lugar família.",
     },
     {
       name: "Walfrido Cabral",
-      role: "Local Guide",
+      role: "",
       text: "Foi excelente ótimos profissionais atendimento de primeira qualidade",
     },
     {
       name: "Rayane Cristina",
-      role: "Aluna",
+      role: "",
       text: "Um lugar de conexões, aprendizagem, onde a mente realmente descansa!",
     },
     {
       name: "Tiago Moraes",
-      role: "Aluno",
+      role: "",
       text: "A melhor escola de jiu-jitsu!",
     },
     {
       name: "Carlos Melo",
-      role: "Aluno",
+      role: "",
       text: "A melhor escola de jiu jitsu!",
     },
     {
       name: "João Marcelo",
-      role: "Aluno",
+      role: "",
       text: "A melhor de todas sem duvida",
     },
   ];
@@ -658,9 +658,9 @@ function Testimonials() {
         </FadeIn>
 
         <div className="overflow-hidden" ref={emblaRef}>
-          <div className="flex gap-6">
+          <div className="flex">
             {items.map((t, i) => (
-              <div key={i} className="min-w-0 flex-[0_0_85%] sm:flex-[0_0_60%] md:flex-[0_0_40%] lg:flex-[0_0_32%]">
+              <div key={i} className="min-w-0 flex-[0_0_85%] sm:flex-[0_0_60%] md:flex-[0_0_40%] lg:flex-[0_0_32%] px-3">
                 <div className="flex h-full flex-col justify-between rounded-sm border border-white/10 bg-[#111] p-8">
                   <div>
                     <div className="flex gap-1">
@@ -686,7 +686,7 @@ function Testimonials() {
                     </div>
                     <div>
                       <div className="text-sm font-bold text-white" style={{ fontFamily: "var(--font-display)" }}>{t.name}</div>
-                      <div className="text-xs uppercase tracking-widest text-white/50">{t.role}</div>
+                      {t.role && <div className="text-xs uppercase tracking-widest text-white/50">{t.role}</div>}
                     </div>
                   </div>
                 </div>
