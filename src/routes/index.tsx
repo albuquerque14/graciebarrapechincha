@@ -31,15 +31,15 @@ const heroImg = "/assets/hero-group.jpg";
 const beltImg = "/assets/belt-detail.jpg";
 const gbLogo = "/assets/gb-logo.png";
 const gbLogo3d = "/assets/gb-logo-3d.png";
-const kidsImg = "/assets/program-kids.jpg";
-const femininoImg = "/assets/program-women.jpg";
-const iniciantesImg = "/assets/program-adults.jpg";
-const intermediarioImg = "/assets/intermediario.jpg";
-const avancadoImg = "/assets/avancado.jpg";
-const nogiImg = "/assets/nogi.jpg";
-const defesaPessoalMulheresImg = "/assets/defesa-pessoal-mulheres.jpg";
-const adaptadoImg = "/assets/adaptado.jpg";
-const competicaoImg = "/assets/program-competition.jpg";
+const kidsImg = "/assets/turmas-kids-v3-20260812.jpg";
+const femininoImg = "/assets/turmas-feminino-v3-20260812.jpg";
+const iniciantesImg = "/assets/turmas-iniciantes-v3-20260812.jpg";
+const intermediarioImg = "/assets/turmas-intermediario-v3-20260812.jpg";
+const avancadoImg = "/assets/turmas-avancado-v3-20260812.jpg";
+const nogiImg = "/assets/turmas-nogi-v3-20260812.jpg";
+const defesaPessoalMulheresImg = "/assets/turmas-defesa-pessoal-v3-20260812.jpg";
+const adaptadoImg = "/assets/turmas-adaptado-v3-20260812.jpg";
+const competicaoImg = "/assets/turmas-competicao-v3-20260812.jpg";
 
 export const Route = createFileRoute("/")({
   component: Index,
