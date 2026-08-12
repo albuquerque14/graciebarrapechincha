@@ -661,7 +661,7 @@ function Testimonials() {
           <div className="flex">
             {items.map((t, i) => (
               <div key={i} className="min-w-0 flex-[0_0_85%] sm:flex-[0_0_60%] md:flex-[0_0_40%] lg:flex-[0_0_32%] px-3">
-                <div className="flex h-full flex-col justify-between rounded-sm border border-white/10 bg-[#111] p-8">
+                <div className="flex h-fit flex-col justify-between rounded-sm border border-white/10 bg-[#111] p-8">
                   <div>
                     <div className="flex gap-1">
                       {Array.from({ length: 5 }).map((_, s) => (
