@@ -589,11 +589,51 @@ function WhyGB() {
 /* ---------- TESTIMONIALS ---------- */
 function Testimonials() {
   const items = [
-    { name: "Rafael M.", role: "Faixa Azul · 2 anos", text: "Entrei querendo perder peso. Saí de cada aula sentindo que virei uma pessoa melhor. A Gracie Barra Pechincha mudou minha rotina." },
-    { name: "Camila S.", role: "GBF · 1 ano", text: "Sempre tive receio de treinar luta. Aqui encontrei um ambiente de mulheres fortes e professores que respeitam o meu ritmo." },
-    { name: "Lucas P.", role: "Pai do aluno GBK", text: "Meu filho era tímido. Hoje é mais confiante, focado na escola e adora ir treinar. Vale cada real investido." },
-    { name: "Juliana R.", role: "Faixa Branca · 6 meses", text: "Localização perfeita, ambiente familiar, professores atenciosos. Melhor decisão que tomei esse ano." },
-    { name: "Bruno C.", role: "Competidor · 4 anos", text: "Aqui aprendi que Jiu-Jitsu é sobre carácter antes da técnica. Recomendo de olhos fechados." },
+    {
+      name: "Tiago Farias",
+      role: "Aluno",
+      text: "Excelente academia! O ambiente é extremamente acolhedor e familiar, fazendo com que todos se sintam parte da equipe desde o primeiro dia. Os professores são altamente qualificados, muito atenciosos e sempre dispostos a ensinar com paciência e dedicação. O clima de respeito, união e irmandade entre os alunos faz toda a diferença.",
+    },
+    {
+      name: "Isabela Oliveira",
+      role: "Aluna",
+      text: "Ambiente acolhedor, confortável, ótimos professores. Um lugar para levar pra vida!",
+    },
+    {
+      name: "Sandra Benine",
+      role: "Aluna",
+      text: "Melhor GB do RJ",
+    },
+    {
+      name: "Kamile Silva",
+      role: "Aluna",
+      text: "Se você procura um lugar acolhedor e cheio de aprendizado encontrou o lugar certo!!! Pessoas incríveis, professores cheios de vontades e cheio de muitos ensinamentos para dar, um lugar família.",
+    },
+    {
+      name: "Walfrido Cabral",
+      role: "Local Guide",
+      text: "Foi excelente ótimos profissionais atendimento de primeira qualidade",
+    },
+    {
+      name: "Rayane Cristina",
+      role: "Aluna",
+      text: "Um lugar de conexões, aprendizagem, onde a mente realmente descansa!",
+    },
+    {
+      name: "Tiago Moraes",
+      role: "Aluno",
+      text: "A melhor escola de jiu-jitsu!",
+    },
+    {
+      name: "Carlos Melo",
+      role: "Aluno",
+      text: "A melhor escola de jiu jitsu!",
+    },
+    {
+      name: "João Marcelo",
+      role: "Aluno",
+      text: "A melhor de todas sem duvida",
+    },
   ];
   const [emblaRef] = useEmblaCarousel({ loop: true, align: "start" }, [Autoplay({ delay: 4500 })]);
 
