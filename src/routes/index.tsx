@@ -101,7 +101,7 @@ function Hero() {
           className="flex items-center gap-3"
         >
           <img
-            src={gbLogo.url}
+            src={gbLogo}
             alt="Gracie Barra Pechincha — Jiu-Jitsu & Defesa Pessoal"
             className="h-20 w-20 object-contain md:h-24 md:w-24"
           />
@@ -243,7 +243,7 @@ function AboutGB() {
       </div>
       <div className="pointer-events-none absolute right-[8%] top-[42%] z-0 hidden w-[32%] max-w-[380px] -translate-y-1/2 md:block">
         <motion.img
-          src={gbLogo3d.url}
+          src={gbLogo3d}
           alt=""
           aria-hidden="true"
           initial={{ opacity: 0, y: 32, scale: 0.92 }}
@@ -326,7 +326,7 @@ function Programs() {
     {
       code: "GBK",
       title: "Kids",
-      img: kidsImg.url,
+      img: kidsImg,
       icon: Baby,
       tagline: "3 a 12 anos",
       benefits: ["Mini Campeões (3-4)", "Pequenos Campeões (5-9)", "Disciplina e foco", "Anti-bullying"],
@@ -334,7 +334,7 @@ function Programs() {
     {
       code: "GBF",
       title: "Feminino",
-      img: femininoImg.url,
+      img: femininoImg,
       icon: Heart,
       tagline: "Exclusivo mulheres",
       benefits: ["Turmas só para elas", "Ambiente seguro", "Autodefesa real", "Condicionamento"],
@@ -342,7 +342,7 @@ function Programs() {
     {
       code: "GB1",
       title: "Iniciantes",
-      img: iniciantesImg.url,
+      img: iniciantesImg,
       icon: Flame,
       tagline: "Adultos · Faixa branca",
       benefits: ["Zero experiência", "Fundamentos GB", "Progressão clara", "Comunidade forte"],
@@ -350,7 +350,7 @@ function Programs() {
     {
       code: "GB2",
       title: "Intermediário",
-      img: intermediarioImg.url,
+      img: intermediarioImg,
       icon: Zap,
       tagline: "Branca 3 graus +",
       benefits: ["Evolução técnica", "Sparring guiado", "Novas posições", "Prep. faixa azul"],
@@ -358,7 +358,7 @@ function Programs() {
     {
       code: "GB3",
       title: "Avançado",
-      img: avancadoImg.url,
+      img: avancadoImg,
       icon: Star,
       tagline: "Azul · Roxa · Marrom",
       benefits: ["Programa avançado", "Alta técnica", "Estratégia de luta", "Refinamento"],
@@ -366,7 +366,7 @@ function Programs() {
     {
       code: "NOGI",
       title: "No Gi",
-      img: nogiImg.url,
+      img: nogiImg,
       icon: Swords,
       tagline: "Sem kimono",
       benefits: ["Grappling moderno", "Base p/ MMA", "Ritmo acelerado", "Condicionamento"],
@@ -374,7 +374,7 @@ function Programs() {
     {
       code: "DP",
       title: "Defesa Pessoal",
-      img: defesaPessoalMulheresImg.url,
+      img: defesaPessoalMulheresImg,
       icon: Shield,
       tagline: "Autodefesa real",
       benefits: ["Situações reais", "Técnicas objetivas", "Consciência de risco", "Confiança pessoal"],
@@ -382,7 +382,7 @@ function Programs() {
     {
       code: "ADAPT",
       title: "Jiu-Jitsu Adaptado",
-      img: adaptadoImg.url,
+      img: adaptadoImg,
       icon: Accessibility,
       tagline: "Para todos",
       benefits: ["Aulas inclusivas", "Adaptação individual", "Ambiente acolhedor", "Progresso no seu ritmo"],
@@ -390,7 +390,7 @@ function Programs() {
     {
       code: "COMP",
       title: "Competição",
-      img: competicaoImg.url,
+      img: competicaoImg,
       icon: Trophy,
       tagline: "Alta performance",
       benefits: ["Treinos específicos", "Estratégia de luta", "Preparação física", "Circuito nacional"],
@@ -483,7 +483,7 @@ function ProgramCard({
               {program.code}
             </span>
             <img
-              src={gbLogo.url}
+              src={gbLogo}
               alt="Gracie Barra Pechincha"
               className="h-12 w-auto shrink-0 opacity-90"
             />
@@ -539,7 +539,7 @@ function WhyGB() {
                 Por que a Gracie Barra <span className="text-[#cc0000]">Pechincha</span>
               </h2>
             </div>
-            <img src={gbLogo.url} alt="Gracie Barra Pechincha" className="h-16 w-16 shrink-0 md:h-24 md:w-24" />
+            <img src={gbLogo} alt="Gracie Barra Pechincha" className="h-16 w-16 shrink-0 md:h-24 md:w-24" />
           </div>
         </FadeIn>
 
@@ -650,7 +650,7 @@ function Testimonials() {
                 Vidas <span className="text-[#cc0000]">transformadas</span>
               </h2>
             </div>
-            <img src={gbLogo.url} alt="Gracie Barra Pechincha" className="h-16 w-16 shrink-0 md:h-24 md:w-24" />
+            <img src={gbLogo} alt="Gracie Barra Pechincha" className="h-16 w-16 shrink-0 md:h-24 md:w-24" />
           </div>
         </FadeIn>
 
@@ -830,7 +830,7 @@ function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 md:flex-row">
         <div className="flex items-center gap-3">
           <img
-            src={gbLogo.url}
+            src={gbLogo}
             alt="Gracie Barra Pechincha"
             className="h-10 w-10 object-contain"
           />
