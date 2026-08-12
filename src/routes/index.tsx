@@ -31,7 +31,7 @@ const heroImg = "/assets/hero-group.jpg";
 const beltImg = "/assets/belt-detail.jpg";
 const gbLogo = "/assets/gb-logo.png";
 const gbLogo3d = "/assets/gb-logo-3d.png";
-const kidsImg = "/assets/avancado.jpg";
+const kidsImg = "/assets/program-kids.jpg";
 const femininoImg = "/assets/program-women.jpg";
 const iniciantesImg = "/assets/program-adults.jpg";
 const intermediarioImg = "/assets/intermediario.jpg";
@@ -39,7 +39,7 @@ const avancadoImg = "/assets/avancado.jpg";
 const nogiImg = "/assets/nogi.jpg";
 const defesaPessoalMulheresImg = "/assets/defesa-pessoal-mulheres.jpg";
 const adaptadoImg = "/assets/adaptado.jpg";
-const competicaoImg = "/assets/nogi.jpg";
+const competicaoImg = "/assets/program-competition.jpg";
 
 export const Route = createFileRoute("/")({
   component: Index,
