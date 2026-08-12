@@ -27,22 +27,19 @@ import {
 } from "lucide-react";
 
 import { FloatingWhatsApp, WhatsAppCTA, WHATSAPP_URL } from "@/components/whatsapp-button";
-import heroAsset from "@/assets/hero-group.jpg.asset.json";
-const heroImg = heroAsset.url;
-import beltImg from "@/assets/belt-detail.jpg";
-import gbLogo from "@/assets/gb-logo.png.asset.json";
-import gbLogo3d from "@/assets/gb-logo-3d.png.asset.json";
-import kidsImg from "@/assets/kids.jpg.asset.json";
-import kidsGenericImg from "@/assets/program-kids.jpg";
-import womenImg from "@/assets/program-women.jpg";
-import femininoImg from "@/assets/feminino-turma-2.jpg.asset.json";
-import avancadoImg from "@/assets/avancado.jpg.asset.json";
-import nogiImg from "@/assets/nogi.jpg.asset.json";
-import defesaPessoalMulheresImg from "@/assets/defesa-pessoal-mulheres.jpg.asset.json";
-import adaptadoImg from "@/assets/adaptado.jpg.asset.json";
-import iniciantesImg from "@/assets/iniciantes.jpg.asset.json";
-import intermediarioImg from "@/assets/intermediario.jpg.asset.json";
-import competicaoImg from "@/assets/competicao.jpg.asset.json";
+const heroImg = "/assets/hero-group.jpg";
+const beltImg = "/assets/belt-detail.jpg";
+const gbLogo = "/assets/gb-logo.png";
+const gbLogo3d = "/assets/gb-logo-3d.png";
+const kidsImg = "/assets/kids.jpg";
+const femininoImg = "/assets/feminino.jpg";
+const avancadoImg = "/assets/avancado.jpg";
+const nogiImg = "/assets/nogi.jpg";
+const defesaPessoalMulheresImg = "/assets/defesa-pessoal-mulheres.jpg";
+const adaptadoImg = "/assets/adaptado.jpg";
+const iniciantesImg = "/assets/iniciantes.jpg";
+const intermediarioImg = "/assets/intermediario.jpg";
+const competicaoImg = "/assets/competicao.jpg";
 
 export const Route = createFileRoute("/")({
   component: Index,
