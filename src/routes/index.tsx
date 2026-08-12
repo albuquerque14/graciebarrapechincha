@@ -612,24 +612,9 @@ function Testimonials() {
       text: "Foi excelente ótimos profissionais atendimento de primeira qualidade",
     },
     {
-      name: "Rayane Cristina",
-      role: "",
-      text: "Um lugar de conexões, aprendizagem, onde a mente realmente descansa!",
-    },
-    {
-      name: "Tiago Moraes",
-      role: "",
-      text: "A melhor escola de jiu-jitsu!",
-    },
-    {
       name: "Carlos Melo",
       role: "",
       text: "A melhor escola de jiu jitsu!",
-    },
-    {
-      name: "João Marcelo",
-      role: "",
-      text: "A melhor de todas sem duvida",
     },
   ];
   const [emblaRef] = useEmblaCarousel({ loop: true, align: "start" }, [Autoplay({ delay: 4500 })]);
